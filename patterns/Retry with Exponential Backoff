@@ -1,9 +1,0 @@
-# Handle transient failures gracefully
-from loop_patterns import RetryLoop
-
-loop = RetryLoop(
-    max_attempts=3,
-    backoff_multiplier=2,
-    initial_delay=1
-)
-result = loop.execute(your_ai_function)
