@@ -1,0 +1,9 @@
+# AI validates and improves its own output
+from loop_patterns import SelfCorrectionLoop
+
+loop = SelfCorrectionLoop(
+    generator=generate_response,
+    validator=validate_response,
+    max_iterations=3
+)
+result = loop.run(prompt)
