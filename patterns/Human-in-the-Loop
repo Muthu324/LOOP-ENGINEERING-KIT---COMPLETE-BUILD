@@ -1,0 +1,8 @@
+# Strategic human checkpoints
+from loop_patterns import HumanVerificationLoop
+
+loop = HumanVerificationLoop(
+    confidence_threshold=0.85,
+    escalation_callback=request_human_review
+)
+result = loop.execute(task)
