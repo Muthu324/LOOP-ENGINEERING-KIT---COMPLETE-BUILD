@@ -2,7 +2,7 @@
 
 > Practical, provider-neutral patterns for building reliable AI loops, with optional LangGraph templates.
 
-[![CI](https://github.com/Muthu324/loop-engineering-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/Muthu324/loop-engineering-kit/actions)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](pyproject.toml)
 
