@@ -1,0 +1,5 @@
+# Core package uses only the Python standard library.
+# For development:
+pytest>=8
+# Optional templates:
+# langgraph>=0.2
