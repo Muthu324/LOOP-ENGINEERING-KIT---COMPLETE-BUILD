@@ -21,7 +21,7 @@ Loop Engineering is the discipline of designing AI systems that iteratively impr
 ## Quick start
 
 ```bash
-git clone https://github.com/yourusername/loop-engineering-kit.git
+git clone https://github.com/Muthu324/loop-engineering-kit.git
 cd loop-engineering-kit
 python -m venv .venv
 source .venv/bin/activate       # Windows: .venv\Scripts\activate
